@@ -1,6 +1,6 @@
-### Hi there 👋 Look At You... You're now with
 # [Pavan Aditya M S](https://pavanaditya.com "Know Pavan Aditya More!!!")
 
+### Hi there 👋 Look At You...
 **PavanAditya/PavanAditya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. You could also try it for yourself. It's rather cool...🥰
 
 Here are some ideas to get you started:
@@ -15,6 +15,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ... Bro, Dude, Bava, Macha, Mama (yup sometimes even nouns come under pronouns 😋)
 - ⚡ Fun fact: ... everything about me is funny 😆😆
 
-#### Recruiters can come here: [Linked In](https://www.linkedin.com/in/pavan-aditya-m-s-964033120/ "Pavan Aditya's LinkedIn Profile")
+#### Recruiters can come here: [LinkedIn](https://www.linkedin.com/in/pavan-aditya-m-s-964033120/ "Pavan Aditya's LinkedIn Profile")
 #### Friends can come here: [Facebook](https://www.facebook.com/pavanaditya.ms "Pavan Aditya's Facebook Profile") [Instagram](https://www.instagram.com/pavan_aditya/ "Pavan Aditya's Instagram Profile")
 #### If you feel like reading some of my writings: [WattPad](https://www.wattpad.com/user/PAVAN_ADITYA_MS "Pavan Aditya's WattPad Profile")
