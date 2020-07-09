@@ -12,7 +12,7 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning ... about how to keep myself always excited to learning
 - 🤔 I’m looking for help with ... Always eager and hungry for techs... Just waiting for new and exciting techonologies. 
 - 💬 Ask me about ... I would love to answer abput
-- 📫 How to reach me: ... [pavanaditya.ms@gmail.com](mailto:pavanaditya.ms@gmail.com "an electronic contact 😁") <a href="tel:+917386557597" tooltip="the telephonic contact 😉">+91 7386557597</a>
+- 📫 How to reach me: ... [pavanaditya.ms@gmail.com](mailto:pavanaditya.ms@gmail.com "an electronic contact 😁") [+91 7386557597](tel:+917386557597)
 - 😄 Pronouns: ... Bro, Dude, Bava, Macha, Mama (yup sometimes even nouns come under pronouns 😋)
 - ⚡ Fun fact: ... everything about me is funny 😆😆
 
