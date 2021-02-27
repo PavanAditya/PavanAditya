@@ -23,6 +23,6 @@ Here are some ideas to get you started:
 
 ## My Stats
 
-![Pavan Aditya GitHub stats](https://github-readme-stats.vercel.app/api?username=pavanaditya&count_private=true&theme=onedark)
+![Pavan Aditya GitHub stats](https://github-readme-stats.vercel.app/api?username=pavanaditya&count_private=true&theme=onedark "Pavan Aditya GitHub stats")
 
-[![Langs Pavan Aditya uses](https://github-readme-stats.vercel.app/api/top-langs/?username=pavanaditya&&langs_count=10&&layout=compact&theme=onedark)](https://github.com/pavanaditya?tab=repositories)
+[![Langs Pavan Aditya uses](https://github-readme-stats.vercel.app/api/top-langs/?username=pavanaditya&&langs_count=10&&layout=compact&theme=onedark)](https://github.com/pavanaditya?tab=repositories "Langs Pavan Aditya will use")
