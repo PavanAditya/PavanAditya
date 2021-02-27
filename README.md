@@ -17,12 +17,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ... Bro, Dude, Bava, Macha, Mama (yup sometimes even nouns come under pronouns 😋)
 - ⚡ Fun fact: ... everything about me is funny 😆😆
 
-#### Recruiters can come here: [LinkedIn](https://www.linkedin.com/in/pavan-aditya-m-s-964033120/ "Pavan Aditya's LinkedIn Profile")
-#### Friends can come here: [Facebook](https://www.facebook.com/pavanaditya.ms "Pavan Aditya's Facebook Profile") [Instagram](https://www.instagram.com/pavan_aditya/ "Pavan Aditya's Instagram Profile")
-#### If you feel like reading some of my writings: [WattPad](https://www.wattpad.com/user/PAVAN_ADITYA_MS "Pavan Aditya's WattPad Profile")
+#### Recruiters can come here: [LinkedIn](https://www.linkedin.com/in/pavan-aditya-m-s-964033120/ "Pavan Aditya's LinkedIn")
+#### Friends can come here: [Facebook](https://www.facebook.com/pavanaditya.ms "Pavan Aditya's Facebook") [Instagram](https://www.instagram.com/pavan_aditya/ "Pavan Aditya's Instagram")
+#### If you feel like reading some of my writings: [WattPad](https://www.wattpad.com/user/PAVAN_ADITYA_MS "Pavan Aditya's WattPad")
 
 ## My Stats
 
-![Pavan Aditya GitHub stats](https://github-readme-stats.vercel.app/api?username=pavanaditya&count_private=true&theme=onedark "Pavan Aditya GitHub stats")
+![Pavan Aditya GitHub stats](https://github-readme-stats.vercel.app/api?username=pavanaditya&count_private=true&theme=onedark "Pavan Aditya's GitHub stats")
 
-[![Langs Pavan Aditya uses](https://github-readme-stats.vercel.app/api/top-langs/?username=pavanaditya&&langs_count=10&&layout=compact&theme=onedark)](https://github.com/pavanaditya?tab=repositories "Langs Pavan Aditya will use")
+[![Langs Pavan Aditya uses](https://github-readme-stats.vercel.app/api/top-langs/?username=pavanaditya&&langs_count=10&&layout=compact&theme=onedark)](https://github.com/pavanaditya?tab=repositories "Pavan Aditya dirtied his hands on these langs")
