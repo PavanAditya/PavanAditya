@@ -26,3 +26,5 @@ Here are some ideas to get you started:
 ![Pavan Aditya GitHub stats](https://github-readme-stats.vercel.app/api?username=pavanaditya&count_private=true&theme=onedark "Pavan Aditya's GitHub stats")
 
 [![Langs Pavan Aditya uses](https://github-readme-stats.vercel.app/api/top-langs/?username=pavanaditya&&langs_count=10&&layout=compact&theme=onedark)](https://github.com/pavanaditya?tab=repositories "Pavan Aditya dirtied his hands on these langs")
+
+<a href="https://stackoverflow.com/users/10003927/pavan-aditya-m-s"><img src="https://stackoverflow.com/users/flair/10003927.png?theme=dark" width="208" height="58" alt="profile for Pavan Aditya M S at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Pavan Aditya M S at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
