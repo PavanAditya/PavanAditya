@@ -29,4 +29,4 @@ Here are some ideas to get you started:
 
 ## Stackoverflow Profile
 
-<a href="https://stackexchange.com/users/13857480"><img src="https://stackexchange.com/users/flair/13857480.png" width="208" height="58" alt="profile for Pavan Aditya M S on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Pavan Aditya M S on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+<a href="https://stackoverflow.com/users/10003927/pavan-aditya-m-s"><img src="https://stackoverflow.com/users/flair/10003927.png?theme=dark" width="208" height="58" alt="profile for Pavan Aditya M S at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Pavan Aditya M S at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
