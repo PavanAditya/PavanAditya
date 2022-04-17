@@ -200,7 +200,9 @@ async function getInputValue() {
     removeInput();
   } else {
     falseValue(value);
-    createText(`command not found: ${value}`)
+    createText(`Command not found: <span class="help-command">${value}</span>`);
+    createText(`As this is a terminal, commands are case sensitive and should only be written in lowercase. Please try again.`);
+    createText(`Try typing <span class="help-command">help</span> to see the list of commands.`);
   }
 }
 

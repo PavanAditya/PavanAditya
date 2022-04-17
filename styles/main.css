@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -143,7 +146,7 @@ span.text {
 }
 p.path {
   color: #f7fca0;
-  font-family: monospace;
+  font-family: 'Ubuntu Mono', monospace;
 }
 p.path span {
   color: #6a77d2;
@@ -198,17 +201,18 @@ input:focus {
   color: #ac9cf3;
   text-decoration: underline;
   font-size: 18px;
-  font-family: cursive;
+  font-family: "Varela Round", sans-serif;
   margin-left: -5px;
 }
 
 .ip {
   color: yellow;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .help-command {
   color: #f78f85;
-  font-family: monospace;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .fab-icons {
