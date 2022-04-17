@@ -124,7 +124,8 @@ async function getInputValue() {
     trueValue(value);
     createText(`Hi, I am <span class="coral">Pavan Aditya M S</span>. I am a Full Stack Developer.`);
     createText(`I work at <span style="font-size: 18px">Amazon<i class='fab-icons fab fa-amazon orange'></i></span>`);
-    createText(`I'm a well trained Javascript Fullstack developer. Experienced using stacks like<br/> <span class='blue' style="font-size: 15px">M.E.A.N ~ MongoDB ExpressJs Angular Node </span><br/> <span class='blue' style="font-size: 15px">M.E.R.N ~ MongoDB ExpressJs React Node </span>`);
+    createText(`I'm a well trained Javascript Fullstack developer.<br/> Experienced using stacks like<br/> <span class='blue' style="font-size: 15px">M.E.A.N ~ MongoDB ExpressJs Angular Node </span><br/> <span class='blue' style="font-size: 15px">M.E.R.N ~ MongoDB ExpressJs React Node </span>`);
+    createText("For more details, you can visit: <a href='https://profile.pavanaditya.com' target='_blank'><i class='fab-icons fa fa-user white'></i>profile.pavanaditya.com</a>");
   } else if (value === "social -a") {
     trueValue(value);
     createText("<a href='https://github.com/PavanAditya' target='_blank'><i class='fab-icons fab fa-github white'></i>github.com/PavanAditya</a>");
@@ -156,7 +157,11 @@ async function getInputValue() {
     document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
   } else if (value === "portfolio") {
     trueValue(value);
-    createText("<a href='https://profile.pavanaditya.com' target='_blank'><i class='fab-icons fab fa-user white'></i>profile.pavanaditya.com</a>");
+    createText("<a href='https://profile.pavanaditya.com' target='_blank'><i class='fab-icons fa fa-user white'></i>profile.pavanaditya.com</a>");
+  } else if (value === "contact") {
+    trueValue(value);
+    createText("Call me at: <a href='tel:+917386557597' target='_blank'>+91 738-6557-597</a>");
+    createText("Mail me at: <a href='mailto:pavanaditya.ms@gmail.com' target='_blank'>pavanaditya.ms@gmail.com</a>");
   } else if (value === "exit") {
     createSpan("Ending the Session", sessionId);
     await delay(600);
