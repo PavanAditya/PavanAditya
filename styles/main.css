@@ -58,7 +58,6 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   text-align: center;
   flex-direction: row;
   width: 100%;
@@ -75,6 +74,10 @@ body {
   cursor: pointer;
   font-size: 9px;
   font-weight: bold;
+  color: transparent;
+}
+.menu:hover .button {
+  color: #282a35;
 }
 .red {
   background-color: #f5544d;
@@ -229,8 +232,5 @@ input:focus {
     max-width: 95%;
     margin: 5px;
     height: 98%;
-  }
-  .menu {
-    flex-direction: row-reverse;
   }
 }
