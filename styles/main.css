@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 * {
   margin: 0;
@@ -25,20 +27,21 @@
   background-color: rgb(129, 129, 129);
 }
 .white {
-  color: rgb(238, 238, 238);
+  color: white;
 }
 .blue {
   color: #9ceaf3;
 }
 a {
   text-decoration: none;
-  color: rgb(238, 238, 238);
+  color: #00ff00;
 }
 body {
   background-color: #070b0d;
 
   height: 100vh;
-  font-family: "Fira Code", monospace;
+  /* font-family: "Fira Code", monospace; */
+  font-family: "VT323", monospace;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,6 +58,11 @@ body {
   margin: 20px;
   cursor: text;
 }
+.github-title {
+  font-family: "Fira Code", monospace;
+  font-size: 18px;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -89,7 +97,8 @@ body {
   background-color: #47d043;
 }
 .coral {
-  color: coral;
+  color: #008688;
+  font-size: 22px;
 }
 div.title {
   flex: 1;
@@ -119,39 +128,42 @@ div.title {
 #app {
   display: flex;
   flex-direction: column;
-  background-color: #282a35;
+  background-color: #0f0f0f;
   width: 100%;
   height: 100%;
   padding: 8px;
   overflow: auto;
 }
 span {
-  font-size: 16px;
-  color: rgb(238, 238, 238);
+  font-size: 20px;
+  color: #00ff00;
   display: contents;
 }
 p {
-  font-size: 16px;
-  color: rgb(238, 238, 238);
+  font-size: 22px;
+  color: #00ff00;
   padding: 8px 0;
 }
 h2 {
-  font-size: 16px;
-  color: rgb(238, 238, 238);
+  font-size: 24px;
+  color: #00ff00;
 }
 p.code {
   color: #66c2cd;
   margin-left: 8px;
 }
 span.text {
-  margin-left: 16px;
-  color: white;
+  margin-left: 20px;
+  color: #00ff00;
 }
 p.path {
   color: #f7fca0;
-  font-family: 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  /* font-family: 'Share Tech Mono', monospace; */
+  font-family: "Fira Code", monospace;
 }
 p.path span {
+  font-size: 14px;
   color: #6a77d2;
 }
 p.path span + span {
@@ -159,19 +171,54 @@ p.path span + span {
 }
 
 .sucess {
-  color: #5ad786;
+  color: #9e9e9e;
+  font-weight: normal;
+  letter-spacing: 3px;
 }
 .error {
   color: #f78f85;
+  font-weight: normal;
+  letter-spacing: 3px;
 }
 p.response {
-  color: rgb(238, 238, 238);
+  color: #00ff00;
+}
+
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  /* letter-spacing: 2px; */
+  animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+  white-space: nowrap;
+  /* font-size: 30px; */
+  /* font-weight: 700; */
+  border-right: 4px solid #00ff00;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #00ff00;
+  }
 }
 
 input {
   border: none;
   background-color: unset;
-  color: rgb(238, 238, 238);
+  color: #00ff00;
   width: 100%;
   font-size: 16px;
   font-family: "Fira Code", monospace;
@@ -201,21 +248,29 @@ input:focus {
   color: #f78f85;
 }
 .link a {
-  color: #ac9cf3;
+  color: #9e9e9e;
   text-decoration: underline;
   font-size: 18px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Share Tech Mono", monospace;
   margin-left: -5px;
 }
 
 .ip {
   color: yellow;
-  font-family: 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  /* font-family: 'Share Tech Mono', monospace; */
+  font-family: "Fira Code", monospace;
 }
 
 .help-command {
   color: #f78f85;
-  font-family: 'Ubuntu Mono', monospace;
+  font-size: 15px;
+  /* font-family: 'Share Tech Mono', monospace; */
+  font-family: "Fira Code", monospace;
+}
+
+.help-icon {
+  font-family: "Fira Code", monospace;
 }
 
 .fab-icons {
@@ -229,8 +284,10 @@ input:focus {
 
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 95%;
-    margin: 5px;
-    height: 98%;
+    max-width: 100%;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
   }
 }

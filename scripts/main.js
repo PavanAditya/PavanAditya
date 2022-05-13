@@ -22,9 +22,12 @@ app.addEventListener("click", function (event) {
 
 async function open_terminal() {
   await delay(200);
-  createText("MSP's Terminal welcomes you 😁");
-  createText("This is a terminal version of Pavan Aditya's profile.");
-  createText("For a detailed portfolio, you can visit: <a href='https://profile.pavanaditya.com' target='_blank'>profile.pavanaditya.com</a>");
+  createText("MSP's Terminal welcomes you !!!", "typing-text");
+  await delay(3000);
+  createText("This is a terminal version of Pavan Aditya's profile.", "typing-text");
+  await delay(3000);
+  createText("For a detailed portfolio, you can visit: <a href='https://profile.pavanaditya.com' target='_blank'>profile.pavanaditya.com</a>", "typing-text");
+  await delay(3000);
   createText("");
   await delay(700);
   createSpan("Creating a Session");
@@ -49,32 +52,35 @@ async function open_terminal() {
     ip = JSON.parse(localStorage.getItem('ip'));
   }
   if (response.status === 200) {
-    console.log(ip);
+    // console.log(ip);
     sessionId = `${ip.loc.split(",")[0]}.${ip.loc.split(",")[1]}.${Math.floor(100 + Math.random() * 900)}`;
-    createText(`Session Created. Your IP is: <span class="ip">${ip.ip}</span><br/> Session ID is: <span class="ip">${sessionId}</span>`);
+    createText(`Session Created. Your IP is: <span class="ip">${ip.ip}</span>`, "typing-text");
+    await delay(3000);
+    createText(`Session ID is: <span class="ip">${sessionId}</span>`, "typing-text");
+    await delay(3000);
   } else {
     sessionId = `${Math.floor(1000 + Math.random() * 9000)}.89.${Math.floor(1000 + Math.random() * 9000)}.686`;
-    createText(`Session Created. Your Session ID is: ${sessionId}`);
+    createText(`Session Created. Your Session ID is: ${sessionId}`, "typing-text");
+    await delay(3000);
   }
   await delay(1500);
 
   createText("You can run several commands:");
-  createText(`<span class="help-command">help</span> ~ <span style="font-size: 13px">See all commands.</span>`);
-  createText(`<span class="help-command">about me</span> ~ <span style="font-size: 13px">Who am i and what do i do.</span>`);
-  createText(`<span class="help-command">social -a</span> ~ <span style="font-size: 13px">Get my social network profiles.</span>`);
+  createText(`<span class="help-command">help</span> <span class="help-icon">~</span> <span style="font-size: 18px">See all commands.</span>`);
+  createText(`<span class="help-command">about me</span> <span class="help-icon">~</span> <span style="font-size: 18px">Who am i and what do i do.</span>`);
+  createText(`<span class="help-command">social -a</span> <span class="help-icon">~</span> <span style="font-size: 18px">Get my social network profiles.</span>`);
 
   await delay(500);
   new_line();
 }
-
 
 function new_line() {
 
   const p = document.createElement("p");
   const span1 = document.createElement("span");
   const span2 = document.createElement("span");
-  p.setAttribute("class", "path")
-  p.textContent = "# user";
+  p.setAttribute("class", "path");
+  p.textContent = "#user";
   span1.textContent = " in";
   span2.textContent = " ~/pavanaditya-ms";
   p.appendChild(span1);
@@ -102,13 +108,13 @@ async function getInputValue() {
   const value = document.querySelector("input").value;
   if (value === "help") {
     trueValue(value);
-    createText(`<span class="help-command">projects</span> ~ <span style="font-size: 13px">My reputed projects and their links. ;)</span>`);
-    createText(`<span class="help-command">about me</span> ~ <span style="font-size: 13px">Who am i and what do i do.</span>`);
-    createText(`<span class="help-command">social -a</span> ~ <span style="font-size: 13px">All my social networks profiles.</span>`);
-    createText(`<span class="help-command">social -{any}</span> ~ <span style="font-size: 13px">Mention one from [fb, instagram, github, linkedin]. Ex: social -fb</span>`);
-    createText(`<span class="help-command">contact</span> ~ <span style="font-size: 13px">To get my contact details.</span>`);
-    createText(`<span class="help-command">cls</span> ~ <span style="font-size: 13px">Clean the terminal.</span>`);
-    createText(`<span class="help-command">exit</span> ~ <span style="font-size: 13px">Exit the terminal.</span>`);
+    createText(`<span class="help-command">projects</span> <span class="help-icon">~</span> <span style="font-size: 18px">My reputed projects and their links. ;)</span>`);
+    createText(`<span class="help-command">about me</span> <span class="help-icon">~</span> <span style="font-size: 18px">Who am i and what do i do.</span>`);
+    createText(`<span class="help-command">social -a</span> <span class="help-icon">~</span> <span style="font-size: 18px">All my social networks profiles.</span>`);
+    createText(`<span class="help-command">social -{any}</span> <span class="help-icon">~</span> <span style="font-size: 18px">Mention one from [fb, instagram, github, linkedin]. Ex: social -fb</span>`);
+    createText(`<span class="help-command">contact</span> <span class="help-icon">~</span> <span style="font-size: 18px">To get my contact details.</span>`);
+    createText(`<span class="help-command">cls</span> <span class="help-icon">~</span> <span style="font-size: 18px">Clean the terminal.</span>`);
+    createText(`<span class="help-command">exit</span> <span class="help-icon">~</span> <span style="font-size: 18px">Exit the terminal.</span>`);
   } else if (value === "projects") {
     // ? Command >> "projects"
     trueValue(value);
@@ -126,7 +132,7 @@ async function getInputValue() {
     trueValue(value);
     createText(`Hi, I am <span class="coral">Pavan Aditya M S</span>. I am a Full Stack Developer.`);
     createText(`I work at <span style="font-size: 18px">Amazon<i class='fab-icons fab fa-amazon orange'></i></span>`);
-    createText(`I'm a well trained Javascript Fullstack developer.<br/> Experienced using stacks like<br/> <span class='blue' style="font-size: 15px">M.E.A.N ~ MongoDB ExpressJs Angular Node </span><br/> <span class='blue' style="font-size: 15px">M.E.R.N ~ MongoDB ExpressJs React Node </span>`);
+    createText(`I'm a well trained Javascript Fullstack developer.<br/> Experienced using stacks like<br/> <span class='blue' style="font-size: 20px">M.E.A.N <span class="help-icon">~</span> MongoDB ExpressJs Angular Node </span><br/> <span class='blue' style="font-size: 20px">M.E.R.N <span class="help-icon">~</span> MongoDB ExpressJs React Node </span>`);
     createText("For more details, you can visit: <a href='https://profile.pavanaditya.com' target='_blank'><i class='fab-icons fa fa-user white'></i>profile.pavanaditya.com</a>");
   } else if (value === "social -a") {
     // ? Command >> "social -a"
@@ -238,6 +244,10 @@ function createText(text, classname) {
   const p = document.createElement("p");
 
   p.setAttribute("class", (text.includes("<a")) ? "link" : "");
+  p.className = classname ? `${p.className} ${classname}` : p.className;
+  setTimeout(() => {
+    p.className = p.className.includes("typing-text") ? p.className.replace("typing-text", "") : p.className;
+  }, 3000);
   p.innerHTML = text;
   app.appendChild(p);
 }
