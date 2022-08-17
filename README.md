@@ -21,9 +21,11 @@ About Me:
 
 ## My Stats
 
-![Pavan Aditya GitHub stats](https://github-readme-stats.vercel.app/api?username=pavanaditya&count_private=true&theme=onedark "Pavan Aditya's GitHub stats")
+![Pavan Aditya GitHub stats](https://github-readme-stats.vercel.app/api?username=pavanaditya&count_private=true&theme=radical "Pavan Aditya's GitHub stats")
 
-[![Langs Pavan Aditya uses](https://github-readme-stats.vercel.app/api/top-langs/?username=pavanaditya&&langs_count=10&&layout=compact&theme=onedark)](https://github.com/pavanaditya?tab=repositories "Pavan Aditya dirtied his hands on these langs")
+[![Langs Pavan Aditya uses](https://github-readme-stats.vercel.app/api/top-langs/?username=pavanaditya&&langs_count=10&&layout=compact&theme=radical)](https://github.com/pavanaditya?tab=repositories "Pavan Aditya dirtied his hands on these langs")
+
+![Pavan Aditya's Github Activity graph](https://activity-graph.herokuapp.com/graph?username=PavanAditya&theme=dracula)
 
 ## Stackoverflow Profile
 
