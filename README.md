@@ -1,4 +1,4 @@
-x# [Pavan Aditya M S](https://pavanaditya.com "Know Pavan Aditya More!!!")
+# [Pavan Aditya M S](https://pavanaditya.com "Know Pavan Aditya More!!!")
 
 
 ### Hi there 👋
@@ -25,12 +25,8 @@ About Me:
 
 [![Langs Pavan Aditya uses](https://github-readme-stats.vercel.app/api/top-langs/?username=pavanaditya&&langs_count=10&&layout=compact&theme=radical)](https://github.com/pavanaditya?tab=repositories "Pavan Aditya dirtied his hands on these langs")
 
-![Pavan Aditya's Github Activity graph](https://activity-graph.herokuapp.com/graph?username=PavanAditya&theme=dracula)
+![Pavan Aditya's Github Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=PavanAditya&bg_color=ffd6d6&color=000000&line=9e4c4c&point=403d3d&area=true&hide_border=true)
 
 ## Stackoverflow Profile
 
 <a href="https://stackoverflow.com/users/10003927/pavan-aditya-m-s"><img src="https://stackoverflow.com/users/flair/10003927.png?theme=dark" width="208" height="58" alt="profile for Pavan Aditya M S at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Pavan Aditya M S at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
-
-## LinkedIn Profile
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="pavanaditya" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/pavanaditya?trk=profile-badge">Pavan Aditya M S</a></div>
