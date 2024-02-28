@@ -1,4 +1,4 @@
-# [Pavan Aditya M S](https://pavanaditya.com "Know Pavan Aditya More!!!")
+x# [Pavan Aditya M S](https://pavanaditya.com "Know Pavan Aditya More!!!")
 
 
 ### Hi there 👋
@@ -30,3 +30,7 @@ About Me:
 ## Stackoverflow Profile
 
 <a href="https://stackoverflow.com/users/10003927/pavan-aditya-m-s"><img src="https://stackoverflow.com/users/flair/10003927.png?theme=dark" width="208" height="58" alt="profile for Pavan Aditya M S at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Pavan Aditya M S at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
+
+## LinkedIn Profile
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="pavanaditya" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/pavanaditya?trk=profile-badge">Pavan Aditya M S</a></div>
